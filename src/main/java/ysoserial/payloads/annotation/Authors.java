@@ -26,6 +26,8 @@ public @interface Authors {
     String JANG = "Jang";
     String ARTSPLOIT = "artsploit";
 
+    String ANONYMOUS = "anonymous";
+
     String[] value() default {};
 
     public static class Utils {
